@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -30,4 +30,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+.divNavBar {
+  height: 60px;
+  background: red;
+  padding: 19px 30px;
+  box-sizing: border-box;
+}
+
+.divLogo {
+  display: inline-block;
+}
+
+.divRightNav {
+  float: right;
+}
+
+.navItem {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.divImages {
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.page {
+  display: inline-block;
+  margin-right: 15px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div {
+  text-align: center;
+}
+
+.activePage {
+  color: red;
+  font-size: 30px;
+}
+.user_name{
+  margin-top: 10px;
+}
+.user_name {
+  width: auto;
+  padding-top: 28px;
+  height: 100px;
+  margin-left: -13px;
 }
